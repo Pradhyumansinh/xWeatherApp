@@ -1,0 +1,47 @@
+.WeatherApp {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weatherCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.weatherCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+    height: 60px;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px 1px rgb(209, 209, 209);
+}
