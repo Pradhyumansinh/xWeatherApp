@@ -23,7 +23,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-.weatherCards {
+.weather-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -31,7 +31,7 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.weatherCard {
+.weather-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
